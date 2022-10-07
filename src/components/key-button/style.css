@@ -1,0 +1,16 @@
+.KeyButton {
+  width: 20%;
+  padding: 20px;
+  margin: 2px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #4e505f;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+}
+
+.KeyButton:hover {
+  opacity: 0.6;
+}
