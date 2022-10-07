@@ -1,12 +1,15 @@
 {
   "name": "react-calculator",
   "version": "1.0.0",
+  "homepage": "https://ayygello.github.io/react-calculator/",
   "description": "Simple calculator based on react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "author": "ayygello",
   "license": "ISC",
@@ -23,6 +26,7 @@
     "babel-plugin-macros": "^3.1.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "prop-types": "^15.8.1",
