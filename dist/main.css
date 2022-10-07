@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #535353;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Layout {
+  max-width: 375px;
+  max-height: 812px;
+  margin: auto;
+  background: #fff;
+  background-color: #17171c;
+  box-shadow: 0 0 15px 5px #0000003b;
+  border-radius: 10px;
+}
+
+.KeyButton {
+  width: 20%;
+  padding: 20px;
+  margin: 2px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #4e505f;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+}
+
+.KeyButton:hover {
+  opacity: 0.6;
+}
+
+.Keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px;
+}
+
+.Display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 40px 0;
+  height: 100px;
+  color: #fff;
+}
+

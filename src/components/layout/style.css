@@ -1,7 +1,10 @@
-body {
-  height: 100vh;
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  height: 100vh;
   background: #535353;
   font-family: sans-serif;
   display: flex;
@@ -10,9 +13,8 @@ body {
 }
 
 .Layout {
-  max-width: 375px;
-  max-height: 812px;
-  margin: auto;
+  width: 375px;
+  height: 570px;
   background: #fff;
   background-color: #17171c;
   box-shadow: 0 0 15px 5px #0000003b;

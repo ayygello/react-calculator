@@ -10,7 +10,7 @@ let config = {
   context: path.join(__dirname, '/src'), // Директория с исходным кодом приложения
   entry: `index.js`, // Главный файл приложения
   output: {
-    path: path.join(__dirname, 'dist'), // Куда и как делать сборку
+    path: path.join(__dirname, 'build'), // Куда и как делать сборку
     filename: '[name].js',
     clean: true, // Очистить dist от предыдущей сборки
   },
